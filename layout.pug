@@ -1,0 +1,17 @@
+doctype html
+
+block variables
+
+head
+	title Micro Boilerplate | A minimalist Boilerplate for super-fast and simple apps
+	meta( charset="UTF-8" )
+	link( rel="stylesheet" href="//bootswatch.com/4/cosmo/bootstrap.min.css" )
+	link( rel="stylesheet" href=`src/apps/${app}/index.styl` )
+
+body.container-fluid.d-flex.justify-content-center.align-items-center.min-vh-100
+
+	div#site
+		block content
+
+	script( src="src/index.js" )
+	script( src=`src/apps/${app}/index.js` )

@@ -1,0 +1,16 @@
+
+mixin hello-world()
+
+	- var image = '//jails-org.github.io/assets/jails.svg'
+
+	section.hello-world.text-center( data-component="hello-world" )
+
+		img.mb-3( src=image width="100" )
+		h1.display-3 Hello World
+
+		blockquote.blockquote.w-75.m-auto
+			p Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away
+			footer.blockquote-footer Antoine de Saint-Exupéry
+
+		p.mt-3 Bootstrap theme :
+			a( href="https://bootswatch.com/cosmo/" target="_blank" )  https://bootswatch.com/cosmo/
