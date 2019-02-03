@@ -10,7 +10,7 @@
   "dependencies": {
     "babel-polyfill": "^6.26.0",
     "jails-js": "^3.3.5",
-    "jails.packages": "jails-org/packages#v1.5.0"
+    "jails.packages": "jails-org/packages"
   },
   "devDependencies": {
     "parcel-bundler": "^1.11.0",
